@@ -1,0 +1,7 @@
+let numero = Number(prompt("Digite um número:"));
+
+let anterior = numero - 1;
+let posterior = numero + 1;
+
+console.log("Número:", numero);
+console.log("Vizinhos:", anterior, "e", posterior);
